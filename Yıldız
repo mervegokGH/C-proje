@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int i,j,empty,stars;
+     stars=1;
+     empty=4;
+     for(i=0;i<5;i++){
+        for(j=0;j<empty;j++){
+        printf(" ");
+        }
+        for(j=0;j<stars;j++){
+            printf("*");
+        }
+        printf("\n");
+        empty--;
+        stars+=2;
+
+
+     }
+    return 0;
+}
